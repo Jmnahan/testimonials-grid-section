@@ -1,0 +1,21 @@
+@use "./variables" as *;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-color: $light-gray;
+}
+
+.container {
+  width: 80vw;
+  margin-top: 5vh;
+}

@@ -1,0 +1,78 @@
+@use "./variables" as c;
+
+.article {
+  padding: 30px;
+  border-radius: 10px;
+  h2, blockquote {
+    padding-top: 16px;
+  } 
+}
+
+.user-profile {
+  display: flex;
+  img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  .user-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 16px;
+  }
+}
+
+.article-one {
+  background: url(../images/bg-pattern-quotation.svg) no-repeat top right 60px ;
+  background-color: c.$moderate-violet;
+  img {
+    border: 3px solid;
+    border-color: c.$violet;
+  }
+  h3, h2 {
+    color: c.$light-violet;
+  }
+  span, blockquote {
+    color: c.$violet;
+  }
+
+}
+
+.article-two {
+  background-color: c.$dark-grayish-blue;
+  img {
+    border: 3px solid;
+    border-color: c.$light-gray;
+  }
+  h3, h2 {
+    color: c.$light-grayish-blue;
+  }
+  span, blockquote {
+    color: c.$gray;
+  }
+}
+
+.article-three, .article-five {
+  background-color: c.$white;
+  h3, h2 {
+    color: c.$dark-grayish-blue;
+  }
+  span, blockquote {
+    color: c.$dark-gray;
+  }
+}
+
+.article-four {
+  background-color: c.$dark-blackish-blue;
+  img {
+    border: 3px solid;
+    border-color: c.$moderate-violet;
+  }
+  h3, h2 {
+    color: c.$light-grayish-blue;
+  }
+  span, blockquote {
+    color: c.$dark-gray;
+  }
+}
